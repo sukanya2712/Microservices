@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "HW02UXlcDwtBu0q7WgEGMNd2e2mnxwA9uU14S/ee3Rw=",
+  "Source": "Bookstore.Admin",
+  "BasePath": "_content/Bookstore.Admin",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
