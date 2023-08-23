@@ -1,4 +1,6 @@
 using Bookstore.Admin.Context;
+using Bookstore.Admin.Interface;
+using Bookstore.Admin.Service;
 using Microsoft.EntityFrameworkCore;
 
 namespace Bookstore.Admin
@@ -13,6 +15,8 @@ namespace Bookstore.Admin
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("BookStoreConnection"));
             });
+            builder.Services.AddTransient<IAdminRepo,AdminRepo>();
+
 
             // Add services to the container.
 
