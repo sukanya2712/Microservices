@@ -31,6 +31,7 @@ namespace Bookstore.Admin.Controllers
             return BadRequest(new ResponseModel<AdminEntity> { Status = false, Message = "unsuccesfull to add admin",Data=null });
         }
 
+
         
     }
 }
