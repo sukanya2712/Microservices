@@ -12,12 +12,12 @@ namespace Bookstore.Admin.Entity
 
         [Required(ErrorMessage = "First Name {0} is required")]
         [DataType(DataType.Text)]
-        [StringLength(50, MinimumLength = 3, ErrorMessage = "Minimum length is 3 character and Maximum length is 50")]
+        [StringLength(50, MinimumLength = 5, ErrorMessage = "Minimum length can be 5 chracter and Maximum length can be 50")]
         public string FirstName { get; set; }
 
         [Required(ErrorMessage = "Last Name {0} is required")]
         [DataType(DataType.Text)]
-        [StringLength(50, MinimumLength = 3, ErrorMessage = "Minimum length is 3 character and Maximum length is 50")]
+        [StringLength(50, MinimumLength = 5, ErrorMessage = "Minimum length can be 5 chracter and Maximum length can be 50")]
         public string LastName { get; set; }
 
 
@@ -30,5 +30,9 @@ namespace Bookstore.Admin.Entity
         [DataType(DataType.Password)]
         [PasswordPropertyText]
         public string Password { get; set; }
+
+        public DateTime CreatedAt { get; set; }
+
+        public DateTime UpdatedAt { get; set; }
     }
 }

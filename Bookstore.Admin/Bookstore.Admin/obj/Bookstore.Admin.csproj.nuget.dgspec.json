@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sukanay\\Desktop\\BookStore\\Bookstore.Admin\\Bookstore.Admin\\Bookstore.Admin.csproj": {}
+    "C:\\Users\\Sukanay\\Desktop\\BookStore\\BookStore.Admin\\Bookstore.Admin\\Bookstore.Admin.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sukanay\\Desktop\\BookStore\\Bookstore.Admin\\Bookstore.Admin\\Bookstore.Admin.csproj": {
+    "C:\\Users\\Sukanay\\Desktop\\BookStore\\BookStore.Admin\\Bookstore.Admin\\Bookstore.Admin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sukanay\\Desktop\\BookStore\\Bookstore.Admin\\Bookstore.Admin\\Bookstore.Admin.csproj",
+        "projectUniqueName": "C:\\Users\\Sukanay\\Desktop\\BookStore\\BookStore.Admin\\Bookstore.Admin\\Bookstore.Admin.csproj",
         "projectName": "Bookstore.Admin",
-        "projectPath": "C:\\Users\\Sukanay\\Desktop\\BookStore\\Bookstore.Admin\\Bookstore.Admin\\Bookstore.Admin.csproj",
+        "projectPath": "C:\\Users\\Sukanay\\Desktop\\BookStore\\BookStore.Admin\\Bookstore.Admin\\Bookstore.Admin.csproj",
         "packagesPath": "C:\\Users\\Sukanay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sukanay\\Desktop\\BookStore\\Bookstore.Admin\\Bookstore.Admin\\obj\\",
+        "outputPath": "C:\\Users\\Sukanay\\Desktop\\BookStore\\BookStore.Admin\\Bookstore.Admin\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sukanay\\AppData\\Roaming\\NuGet\\NuGet.Config",
